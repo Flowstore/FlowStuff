@@ -101,7 +101,7 @@ function postResponse(channel, srcChannel, ticket, category, issue, userName, wh
     ]
   };
 
-  var url = 'https://hooks.slack.com/services/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';
+  var url = 'https://hooks.slack.com/services/XXXXXXXXXXXXXXXXXXXXXXXXXXXX';
   var options = {
     'method': 'post',
     'payload': JSON.stringify(payload)
@@ -225,7 +225,7 @@ function postUpdate(channel, user, ticket, status, delegated, update, eta) { //s
     ]
   };
 
-  var url = 'https://hooks.slack.com/services/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';
+  var url = 'https://hooks.slack.com/services/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
   var options = {
     'method': 'post',
     'payload': JSON.stringify(payload)
